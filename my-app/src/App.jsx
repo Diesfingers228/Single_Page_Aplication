@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
 import 'react-router-dom'
-import Header from './Мои компоненты/Header'
-import Main from './Мои компоненты/Main'
-import News from './Мои компоненты/News'
-import Sentence from './Мои компоненты/Sentence'
-import Messages from './Мои компоненты/Messages'
+import Header from './MyComponents/Header'
+import Main from './MyComponents/Main'
+import News from './MyComponents/News'
+import Sentence from './MyComponents/Sentence'
+import Messages from './MyComponents/Messages'
 import { Route, Routes } from 'react-router-dom'
 
 export default function App() {
