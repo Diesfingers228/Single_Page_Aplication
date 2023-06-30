@@ -34,7 +34,7 @@
         flex-direction: column;
         justify-content: space-around;
         max-inline-size: 100%;
-        font-size: larger;
+        font-size: 150%;
         padding: 0;
         margin: 0;
         
@@ -73,7 +73,7 @@
     
     body {
         background-color: rgb(39, 33, 33);
-       
+        min-width: 480px;
     }
     
     #root {
@@ -90,6 +90,7 @@
         background-color: rgb(31, 22, 22);
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+        height: 30%;
     }
     
     .list {
@@ -97,7 +98,7 @@
         display: flex;
         justify-content: space-around;
         max-inline-size: 100%;
-        font-size: larger;
+        font-size: 100%;
         padding: 0;
         margin: 0;
         word-wrap: break-word;
